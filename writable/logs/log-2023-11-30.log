@@ -1,0 +1,15 @@
+CRITICAL - 2023-11-30 13:13:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\page\content.php on line 13.
+ 1 APPPATH\Views\page\content.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\wamp64\\www\\web-news-1\\app\\Views\\page\\content.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\web-news-1\\app\\Views\\page\\content.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('page/content', [], true)
+ 5 APPPATH\Views\page\wrapper.php(5): view('page/content')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\web-news-1\\app\\Views\\page\\wrapper.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('page/wrapper', [], true)
+ 9 APPPATH\Controllers\Home.php(72): view('page/wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

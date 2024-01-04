@@ -1,0 +1,26 @@
+CRITICAL - 2024-01-04 12:33:02 --> Invalid file: "partial/menu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial/menu.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('partial/menu', [], true)
+ 3 APPPATH\Views\home\wrapper.php(4): view('partial/menu')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\web-WildGround\\app\\Views\\home\\wrapper.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/wrapper', [], true)
+ 7 APPPATH\Controllers\Home.php(41): view('home/wrapper', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-04 12:33:20 --> Invalid file: "partial/menu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial/menu.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('partial/menu', [], true)
+ 3 APPPATH\Views\home\wrapper.php(4): view('partial/menu')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\wamp64\\www\\web-WildGround\\app\\Views\\home\\wrapper.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('home/wrapper', [], true)
+ 7 APPPATH\Controllers\Home.php(41): view('home/wrapper', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
